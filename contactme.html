@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Conatct Details</h1>
+    <p>My Fictional Address</p>
+    <p>647-687-6861</p>
+    <p>edydhm@gmail.com</p>
+
+    <hr>
+
+    <form action="mailto:edydhm@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" name="Name" value=""><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <small>Format: 647-818-7890</small><br>
+
+      <label for="Email">Your Email:</label>
+      <input type="email" name="Email" value=""><br>
+
+      <label for="date">Select the Date:</label>
+      <input type="date" name="Date" value="">
+      <label for="time">Select the Time:</label>
+      <input type="time" name="Time" value=""><br>
+
+      <label for="file">Upload a File</label>
+      <input type="file" name="File" value=""><br>
+
+      <label>Your Message:</label><br>
+      <textarea name="Message" rows="8" cols="50"></textarea><br>
+
+      <input type="submit" name="">
+
+      <hr>
+
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">My Hobbies</a>
+
+
+    </form>
+  </body>
+</html>
